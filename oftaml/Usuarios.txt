@@ -1,0 +1,11 @@
+Administrador
+admin	admin123
+
+Médico
+lgalindo	12345
+
+Técnico
+tecnico1	12345
+
+Recepción
+recepcion1	12345
