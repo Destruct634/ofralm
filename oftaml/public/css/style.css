@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Añadido de nuevo: Espacio para que el footer no tape el contenido */
+    padding-bottom: 40px; 
+}
+.card-header {
+    font-weight: 500;
+}
+.dataTables_filter {
+    float: right;
+}
+.dataTables_paginate {
+    float: right;
+}
+.btn-group .btn {
+    margin: 0 2px;
+}
+.timeline {
+    position: relative;
+    padding: 20px 0;
+}
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20px;
+    height: 100%;
+    width: 4px;
+    background: #e9ecef;
+}
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+.timeline-dot {
+    position: absolute;
+    left: 13px;
+    top: 5px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    border: 3px solid #fff;
+}
+.timeline-content {
+    position: relative;
+}
+.footer-bar {
+    /* Restaurado: Reglas para fijar la barra en la parte inferior */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+    font-size: 0.8rem;
+}
